@@ -10,11 +10,12 @@ public class main {
 		String content = "new post";
 		
 		friendPost fp = new friendPost(date,content,user);
-		System.out.println(fp);
+		System.out.println(fp.getUser().getName());
+		System.out.println(fp.getContent());		
 		
 		
-		
-		
+		System.out.println(fp.contains("post"));
+		System.out.println(fp.contains("HKUST"));
 		
 		
 		

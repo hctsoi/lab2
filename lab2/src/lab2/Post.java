@@ -11,7 +11,7 @@ public class Post {
 	
 	
 public Post(Date date, String content){
-	//construstor
+	//construstor didnt use yet
 	
 	
 }
